@@ -1,0 +1,17 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.tfvars
+!*.tfvars.example
+*.tfbackend
+*.auto.tfvars
+!*.auto.tfvars.example
+*.pem
+.env
+.DS_Store
+
+# Backend config contains account-specific bucket names
+backend.hcl
